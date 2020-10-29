@@ -20,11 +20,11 @@
   "dependencies": {
     "discord.js": "11.4.2",
     "dotenv": "^8.2.0",
-    "firebase-admin": "^6.5.0",
-    "winston": "~2.x.x"
+    "firebase-admin": "^9.3.0",
+    "winston": "~2.4.5"
   },
   "devDependencies": {
-    "forever": "^1.0.0",
-    "nodemon": "^1.18.9"
+    "forever": "^3.0.2",
+    "nodemon": "^1.19.4"
   }
 }
