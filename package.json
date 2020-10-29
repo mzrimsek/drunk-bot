@@ -1,0 +1,30 @@
+{
+  "name": "drunk-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js",
+    "forever": "forever bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzrimsek/drunk-bot.git"
+  },
+  "author": "Mike Zrimsek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzrimsek/drunk-bot/issues"
+  },
+  "homepage": "https://github.com/mzrimsek/drunk-bot#readme",
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^6.5.0",
+    "winston": "~2.x.x"
+  },
+  "devDependencies": {
+    "forever": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
