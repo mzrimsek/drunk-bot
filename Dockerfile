@@ -1,6 +1,6 @@
 FROM node:latest
 
-RUN apt-get update && apt-get install python make g++
+RUN apt-get update && apt-get install -y build-essential
 
 RUN mkdir -p /usr/src/bot
 WORKDIR /usr/src/bot
