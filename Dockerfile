@@ -1,5 +1,7 @@
 FROM node:latest
 
+RUN apt-get update && apt-get install python make g++
+
 RUN mkdir -p /usr/src/bot
 WORKDIR /usr/src/bot
 
