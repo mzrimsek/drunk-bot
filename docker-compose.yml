@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  drunk_bot:
+  bot:
     image: ghcr.io/mzrimsek/drunk-bot:latest
     container_name: drunk_bot
     environment:
