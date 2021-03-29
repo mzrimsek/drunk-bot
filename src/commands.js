@@ -7,15 +7,6 @@ function getCommandAction(message) {
     return args[0];
 }
 
-function getNotificationCommand(message) {
-    const args = getCommandArgs(message);
-    const reason = args.splice(1).join(' ');
-
-    return {
-        reason
-    }
-}
-
 function getUserCommand(message) {
     try {
         const args = getCommandArgs(message);
@@ -33,6 +24,5 @@ function getUserCommand(message) {
 
 module.exports = {
     getCommandAction,
-    getNotificationCommand,
     getUserCommand
 };
